@@ -16,7 +16,7 @@
   },
   "resources": [
   ],
-  "source-url": "",
+  "source-url": "ssh://github.com/lizmat/eigenstates.git",
   "tags": [
     "JUNCTION"
   ],

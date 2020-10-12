@@ -1,4 +1,4 @@
-my class eigenstates:ver<0.0.1>:auth<cpan:ELIZABETH> { }  # just for mi6
+class the-eigenstates:ver<0.0.1>:auth<cpan:ELIZABETH> { }  # just for mi6
 
 proto sub eigenstates(|) is export {*}
 multi sub eigenstates(Junction:D \j --> List:D) {
