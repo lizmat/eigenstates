@@ -2,6 +2,9 @@ Revision history for eigenstates
 
 {{$NEXT}}
 
+0.0.3  2020-11-26T13:16:15+01:00
+    - Update META6.json, seems App::Mi6 missed it :-(
+
 0.0.2  2020-11-26T12:57:24+01:00
     - Need to de-containerize, spotted by Wenzel P.P. Peppmeyer++
 
