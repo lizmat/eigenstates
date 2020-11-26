@@ -21,9 +21,22 @@ eigenstates - expose the eigenstates of an object
 
   use eigenstates;
 
-  say eigenstates(1|2|3);  # 1 2 3
+  say eigenstates(1|2|3);  # (1 2 3)
 
-  say eigenstates(42);     # 42
+  say eigenstates(42);     # (42)
+
+  sub handles-junctions(Junction:D $j) {
+    say eigenstates $j;
+  }
+
+  handles-junctions(1&2&3); # (1 2 3)
+
+  sub catch-all(Mu:D $j is raw) {
+    say eigenstates $j;
+  }
+
+  catch-all(1&2); # (1 2)
+  catch-all("String"); # (String)
 
 =end code
 
