@@ -1,4 +1,4 @@
-class the-eigenstates:ver<0.0.3>:auth<cpan:ELIZABETH> { }  # just for mi6
+# Keep version info manually in META6.json
 
 proto sub eigenstates(|) is export {*}
 multi sub eigenstates(Junction:D $junction --> List:D) {
