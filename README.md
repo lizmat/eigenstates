@@ -17,7 +17,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-The eigenstates distribution exports a single subroutine called `eigenstates` that returns a list of a eigenstates of an object. For all objects except `Junction`s, that's a list with the given object. For a `Junction`, it returns the internal values (aka "eigenstates") as a List.
+The eigenstates distribution exports a single subroutine called `eigenstates` that returns a list of the eigenstates of an object. For all objects except `Junction`s, that's a list with the given object. For a `Junction`, it returns the internal values (aka "eigenstates") as a List.
 
 AUTHOR
 ======

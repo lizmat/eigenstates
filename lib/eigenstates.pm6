@@ -1,11 +1,11 @@
-class the-eigenstates:ver<0.0.1>:auth<cpan:ELIZABETH> { }  # just for mi6
+class the-eigenstates:ver<0.0.2>:auth<cpan:ELIZABETH> { }  # just for mi6
 
 proto sub eigenstates(|) is export {*}
-multi sub eigenstates(Junction:D \j --> List:D) {
+multi sub eigenstates(Junction:D $junction --> List:D) {
     use nqp;
-    nqp::getattr(j,Junction,'$!eigenstates').List
+    nqp::getattr($junction,Junction,'$!eigenstates').List
 }
-multi sub eigenstates(Mu \object) {
+multi sub eigenstates(Mu \object --> List:D) {
     (object,)
 }
 
@@ -30,7 +30,7 @@ eigenstates - expose the eigenstates of an object
 =head1 DESCRIPTION
 
 The eigenstates distribution exports a single subroutine called C<eigenstates>
-that returns a list of a eigenstates of an object.  For all objects except
+that returns a list of the eigenstates of an object.  For all objects except
 C<Junction>s, that's a list with the given object.  For a C<Junction>, it
 returns the internal values (aka "eigenstates") as a List.
 
