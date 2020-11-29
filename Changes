@@ -2,6 +2,9 @@ Revision history for eigenstates
 
 {{$NEXT}}
 
+0.0.4  2020-11-29T13:53:48+01:00
+    - Add Technical Background section
+
 0.0.3  2020-11-26T13:16:15+01:00
     - Update META6.json, seems App::Mi6 missed it :-(
 
