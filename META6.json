@@ -1,5 +1,5 @@
 {
-  "auth": "cpan:ELIZABETH",
+  "auth": "fez:lizmat",
   "authors": [
     "Elizabeth Mattijsen"
   ],
@@ -12,15 +12,15 @@
   "name": "eigenstates",
   "perl": "6.d",
   "provides": {
-    "eigenstates": "lib/eigenstates.pm6"
+    "eigenstates": "lib/eigenstates.rakumod"
   },
   "resources": [
   ],
-  "source-url": "ssh://github.com/lizmat/eigenstates.git",
+  "source-url": "https://github.com/lizmat/eigenstates.git",
   "tags": [
     "JUNCTION"
   ],
   "test-depends": [
   ],
-  "version": "0.0.4"
+  "version": "0.0.5"
 }

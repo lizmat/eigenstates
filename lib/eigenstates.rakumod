@@ -1,5 +1,3 @@
-my class eigenstates:ver<0.0.4>:auth<cpan:ELIZABETH> { }  # just for mi6
-
 proto sub eigenstates(|) is export {*}
 multi sub eigenstates(Junction:D $junction --> List:D) {
     use nqp;
@@ -91,7 +89,7 @@ Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2020 Elizabeth Mattijsen
+Copyright 2020, 2021 Elizabeth Mattijsen
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
