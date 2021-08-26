@@ -1,5 +1,9 @@
 Revision history for eigenstates
 
+{{$NEXT}}
+0.0.6  2021-08-26T18:07:22.622835+02:00
+    - Attempt to set version with mi6
+
 0.0.5  2021-08-26T10:18:15.864197+02:00
     - Move to fez
 
