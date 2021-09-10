@@ -1,6 +1,10 @@
 Revision history for eigenstates
 
 {{$NEXT}}
+
+0.0.7  2021-09-10T12:00:27+02:00
+    - Another attempt at fixing an upload
+
 0.0.6  2021-08-26T18:07:22.622835+02:00
     - Attempt to set version with mi6
 
