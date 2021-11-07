@@ -1,6 +1,3 @@
-my
-class eigenstates:ver<0.0.7>:auth<zef:lizmat> { } # just for mi6
-
 proto sub eigenstates(|) is export {*}
 multi sub eigenstates(Junction:D $junction --> List:D) {
     use nqp;
