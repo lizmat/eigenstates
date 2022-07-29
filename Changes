@@ -2,6 +2,13 @@ Revision history for eigenstates
 
 {{$NEXT}}
 
+0.0.10  2022-07-29T20:45:40+02:00
+    - Fix situation caused by a nqp::list (akd BOOTArray) as the storage
+      of the eigenstates in a Junction, rather than an IterationBuffer.
+      Spotted by Wenzel P.P. Peppmeyer++
+    - Update email address, copyright year
+    - Add sponsor link
+
 0.0.9  2021-12-02T21:05:30+01:00
     - Remove custom labels from dist.ini
 
