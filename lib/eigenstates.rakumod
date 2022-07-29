@@ -1,7 +1,17 @@
 proto sub eigenstates(|) is export {*}
 multi sub eigenstates(Junction:D $junction --> List:D) {
     use nqp;
-    nqp::getattr($junction,Junction,'$!eigenstates').List
+    my $eigenstates := nqp::getattr($junction, Junction, '$!eigenstates');
+    (nqp::istype($eigenstates, IterationBuffer)
+        ?? $eigenstates
+        !! nqp::stmts((my $clone := nqp::clone($eigenstates)),
+            (my $buffer := nqp::create(IterationBuffer)),
+            nqp::while(
+                $clone,
+                nqp::push($buffer, nqp::shift($clone))),
+            $buffer
+           )
+    ).List
 }
 multi sub eigenstates(Mu \object --> List:D) {
     (object,)
