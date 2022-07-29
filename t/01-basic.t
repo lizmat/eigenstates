@@ -12,3 +12,5 @@ class C { has $.j is rw }
 my $c = C.new;
 $c.j = 1|2;
 is-deeply eigenstates($c.j), (1,2), 'did we get the decontainerized attribute';
+
+is-deeply eigenstates(Date.new(2022, any(1..3), *)), (Date.new(2022, 1, *), Date.new(2022, 2, *), Date.new(2022, 3, *)), 'do we handle BOOTArray';
