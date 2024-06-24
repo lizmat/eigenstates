@@ -2,6 +2,11 @@ Revision history for eigenstates
 
 {{$NEXT}}
 
+0.0.11  2024-06-24T20:53:03+02:00
+    - Modernize test file extension
+    - Update copyright year
+    - Add sponsor button
+
 0.0.10  2022-07-29T20:45:40+02:00
     - Fix situation caused by a nqp::list (akd BOOTArray) as the storage
       of the eigenstates in a Junction, rather than an IterationBuffer.
