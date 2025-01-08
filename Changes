@@ -1,6 +1,8 @@
 Revision history for eigenstates
 
 {{$NEXT}}
+    - Add CI button for each OS
+    - Update copyright year
 
 0.0.11  2024-06-24T20:53:03+02:00
     - Modernize test file extension
