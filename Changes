@@ -1,6 +1,9 @@
 Revision history for eigenstates
 
 {{$NEXT}}
+
+0.0.12  2025-07-29T15:40:41+02:00
+    - Add coverage testing
     - Add CI button for each OS
     - Update copyright year
 
