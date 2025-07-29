@@ -2,6 +2,9 @@ Revision history for eigenstates
 
 {{$NEXT}}
 
+0.0.12  2025-07-29T15:42:10+02:00
+    - Create version with API version 2 (just for testing)
+
 0.0.12  2025-07-29T15:40:41+02:00
     - Add coverage testing
     - Add CI button for each OS
